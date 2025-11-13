@@ -424,7 +424,7 @@ span{
 @media screen and (max-width: 600px) {
 
   body{
-    width:fit-content;
+    width:min-content;
   }
 
   .videobg{
