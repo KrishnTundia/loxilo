@@ -14,6 +14,7 @@
 }
 
 body {
+  width: fit-content;
   margin: 0;
   padding: 0;
   overflow-x: hidden;
@@ -110,7 +111,7 @@ section {
 
 .videobg {
   position: relative;
-  display: flex;
+  display:flex;
   justify-content: center;
   align-items: center;
   height: 125vh;
@@ -424,12 +425,12 @@ span{
 @media screen and (max-width: 600px) {
 
   body{
-    width:min-content;
+    width:auto;
   }
 
   .videobg{
     height: 225vh;
-    width: 125vh;
+    width: auto;
   }
 
   .imagebg{
@@ -485,7 +486,7 @@ span{
   }
 
   .services{
-    width: 125vh;
+    width: fit-content;
   }
   .grid{
     grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
@@ -527,13 +528,13 @@ span{
   }
 
   .hr{
-    width: 125vh;
+    width: auto;
   }
 
   .hr-hid{
     display: block;
     margin-left: 4.5rem;
-    width: 104vh;
+    width: auto;
   }
 
   .last-logo{
@@ -552,7 +553,7 @@ span{
     padding: 30px;
     padding-left: 4.5rem;
     padding-right: 4.5rem;
-    width: 125vh;
+    width: auto;
     border: none;
     text-align: left;
     outline: none;
